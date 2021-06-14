@@ -123,6 +123,7 @@ IndexPageTemplate.propTypes = {
   subheading: PropTypes.string,
   mainpitch: PropTypes.object,
   description: PropTypes.string,
+  author: PropTypes.string,
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
